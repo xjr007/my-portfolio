@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
+import LandingPage from './components/pages/LandingPage';
 
 function App() {
-	return <div className='App'></div>;
+	return (
+		<Fragment>
+			<LandingPage />
+		</Fragment>
+	);
 }
 
 export default App;

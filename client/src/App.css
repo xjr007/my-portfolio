@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
+/*
+#0B0C10 - black
+#1F2833 - grey
+#C5C6C7 - pinkish peach
+#66FCF1 - turquaise
+#45A29E - darker of turquaise
+
+websites-to-use:
+daFonts
+
+10bestdesigns - neatens up your code
+autoprefixer css online - gives css code per browser 
+
+caniuse - checks availability of components
+designyourway - how to overall layout your website
+
+unsplash - for images
+adobe xd (xdguru)- more UI kits
+*/
+
+:root {
+	--primary-color: #45a29e;
+	--light-primary-color: #66fcf1;
+	--black-color: #0b0c10;
+	--peach-color: #c5c6c7;
+	--grey-color: #1f2833;
+	background-color: #1f2833;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+	display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*
+Landing page
+*/
+
+.main-landing {
+	background-image: url('bckgrnd.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.main-centered {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	border: 5px solid black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 90%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*
+Navigation menu
+*/
+.main-menu {
+	background-image: url('bckgrnd.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+}
+
+.grid-menu {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 100px 10px;
+	grid-gap: 10px;
+	padding: 10px;
+}
+
+.btn-menu {
+	transform: translate(-15%, 180%);
+}
+
+.btn-sz-l {
+	width: 420px;
+}
+
+.msg-menu {
+	transform: translate(130%, 115%);
+	width: 500px;
+}
+/*
+Contact menu
+*/
+
+.main-contact {
+	background-image: url('bckgrnd.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+}
+
+/*
+Fonts
+*/
+.f-l {
+	font-size: larger;
+}
+
+/*
+Positioning
+*/
+
+.intro-right {
+	transform: translate(25%, -0%);
+	width: 100%;
+}
+
+.col-lg-8 {
+	flex: 0 0 66.6666666667%;
+	max-width: 66.6666666667%;
+}
+
+/*
+Buttons
+*/
+.btn-more {
+	position: fixed;
+	/* bring your own prefixes */
+	transform: translate(0%, 50%);
+}
+
+/*
+Grids
+*/
+.grid-1 {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1rem;
+}
+
+.grid-3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+}
+
+.grid-4 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
 }
