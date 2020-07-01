@@ -1,7 +1,5 @@
 import React from 'react';
-import { StickyContainer, Sticky } from 'react-sticky';
 import 'materialize-css/dist/css/materialize.min.css';
-import styled from 'styled-components';
 import '../../App.css';
 
 import InstagramIcon from '@material-ui/icons/Instagram';
@@ -9,19 +7,32 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const SocialMedia = () => {
-	const onClick = () => {};
 	return (
 		<div className='fixed-action-btn'>
 			<div className='social-media'>
-				<div className='soc insta'>
+				<a
+					rel='noopener noerferrer'
+					href='https://instagram.com'
+					target='_blank'
+					className='soc insta'>
 					<InstagramIcon style={largerIcons}></InstagramIcon>
-				</div>
-				<div className='soc link'>
+				</a>
+				<div></div>
+				<a
+					rel='noopener noerferrer'
+					href='https://linkedin.com'
+					className='soc link'
+					target='_blank'>
 					<LinkedInIcon style={largerIcons}></LinkedInIcon>
-				</div>
-				<div className='soc git'>
+				</a>
+				<div></div>
+				<a
+					rel='noopener noerferrer'
+					href='https://github.com'
+					className='soc git'
+					target='_blank'>
 					<GitHubIcon style={largerIcons}></GitHubIcon>
-				</div>
+				</a>
 			</div>
 		</div>
 		// <StickyContainer style={{ zIndex: 2 }}>

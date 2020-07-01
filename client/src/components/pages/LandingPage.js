@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import '../../App.css';
 import 'materialize-css/dist/css/materialize.min.css';
 
@@ -26,21 +27,24 @@ const LandingPage = () => {
 				<div className='container'>
 					<h2 className='head-menu'>My Journey</h2>
 					<div className='btn-menu grid-2 btn-sz-l'>
-						<button type='button' className='waves-effect waves-light btn blue'>
+						<Link type='button' className='waves-effect waves-light btn blue'>
 							Resume
-						</button>
-						<button type='button' className='waves-effect waves-light btn blue'>
+						</Link>
+						<Link type='button' className='waves-effect waves-light btn blue'>
 							Blog
-						</button>
-						<button type='button' className='waves-effect waves-light btn blue'>
+						</Link>
+						<Link type='button' className='waves-effect waves-light btn blue'>
 							Reviews
-						</button>
-						<button type='button' className='waves-effect waves-light btn blue'>
+						</Link>
+						<Link type='button' className='waves-effect waves-light btn blue'>
 							Projects
-						</button>
-						<button type='button' className='waves-effect waves-light btn blue'>
+						</Link>
+						<Link
+							type='button'
+							to='/contact'
+							className='waves-effect waves-light btn blue'>
 							Contact
-						</button>
+						</Link>
 					</div>
 
 					<div className='msg-menu'>

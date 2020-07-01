@@ -1,14 +1,20 @@
 import React, { Fragment } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
-import LandingPage from './components/pages/LandingPage';
-import SocialMedia from './components/layout/SocialMedia';
+import Landing from './components/pages/LandingPage';
+import Contact from './components/pages/ContactPage';
+
+import SocialComponent from './components/layout/SocialMedia';
 
 function App() {
 	return (
 		<Fragment>
-			<LandingPage />
-			<SocialMedia />
+			<Router>
+				<Route exact path='/' component={Landing} />
+				<Route exact path='/contact' component={Contact} />
+			</Router>
+			<SocialComponent />
 		</Fragment>
 	);
 }
