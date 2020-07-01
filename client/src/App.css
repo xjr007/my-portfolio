@@ -24,7 +24,7 @@ adobe xd (xdguru)- more UI kits
 	--black-color: #0b0c10;
 	--peach-color: #c5c6c7;
 	--grey-color: #1f2833;
-	background-color: #1f2833;
+	background-color: white;
 }
 
 * {
@@ -45,6 +45,34 @@ main,
 nav,
 section {
 	display: block;
+}
+
+/*
+Social media
+*/
+
+.social-media {
+	background: #c5c6c7;
+	padding: 4px;
+	border-radius: 5px;
+	transform: translate(-2025%, -100%);
+}
+
+.soc.insta:hover {
+	filter: brightness(90%);
+	color: palevioletred;
+	cursor: pointer;
+}
+
+.soc.link:hover {
+	filter: brightness(90%);
+	color: blue;
+	cursor: pointer;
+}
+.soc.git:hover {
+	filter: brightness(90%);
+	color: grey;
+	cursor: pointer;
 }
 
 /*
