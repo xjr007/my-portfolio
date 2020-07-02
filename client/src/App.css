@@ -25,6 +25,9 @@ adobe xd (xdguru)- more UI kits
 	--peach-color: #c5c6c7;
 	--grey-color: #1f2833;
 	background-color: white;
+	background-image: url('bckgrndmenu.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 * {
@@ -91,7 +94,6 @@ Landing page
 */
 
 .main-landing {
-	background-image: url('bckgrnd.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
@@ -111,6 +113,11 @@ Landing page
 /*
 Navigation menu
 */
+
+.head-menu {
+	transform: translate(0%, 200%);
+}
+
 .main-menu {
 	background-image: url('bckgrnd.jpg');
 	background-size: cover;
@@ -147,7 +154,7 @@ Contact menu
 	background-image: url('bckgrnd.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100vh;
+	height: 20vh;
 	width: 100%;
 }
 
