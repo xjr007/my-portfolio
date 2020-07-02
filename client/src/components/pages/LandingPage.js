@@ -25,16 +25,28 @@ const LandingPage = () => {
 			<section className='main-menu'>
 				<h2 className='heading-btn-menu'>My Journey</h2>
 				<div className='grid-menu'>
-					<Link type='button' className='waves-effect waves-light btn blue btn-menu'>
+					<Link
+						type='button'
+						to='/resume'
+						className='waves-effect waves-light btn blue btn-menu'>
 						Resume
 					</Link>
-					<Link type='button' className='waves-effect waves-light btn blue btn-menu'>
-						Blog
+					<Link
+						type='button'
+						to='/about'
+						className='waves-effect waves-light btn blue btn-menu'>
+						About
 					</Link>
-					<Link type='button' className='waves-effect waves-light btn blue btn-menu'>
+					<Link
+						type='button'
+						to='/reviews'
+						className='waves-effect waves-light btn blue btn-menu'>
 						Reviews
 					</Link>
-					<Link type='button' className='waves-effect waves-light btn blue btn-menu'>
+					<Link
+						type='button'
+						to='/projects'
+						className='waves-effect waves-light btn blue btn-menu'>
 						Projects
 					</Link>
 					<Link
@@ -54,7 +66,7 @@ const LandingPage = () => {
 				</div>
 			</section>
 			<section>
-				<h2>contact menu</h2>
+				<h6 style={{ textAlign: 'center' }}>abaaqielbehardien@gmail.com</h6>
 			</section>
 		</Fragment>
 	);
