@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 import Landing from './components/pages/LandingPage';
@@ -7,19 +7,16 @@ import Contact from './components/pages/ContactPage';
 
 import SocialComponent from './components/layout/SocialMedia';
 
-function App() {
+const App = () => {
 	return (
-		<Fragment>
-			<Router>
-				<div className='App'>
-					<Landing />
-					<Route exact path='/' component={Landing} />
-					<Route exact path='/contact' component={Contact} />
-				</div>
-			</Router>
+		<Router>
+			<Switch>
+				<Route exact path='/' component={Landing} />
+				<Route exact path='/contact' component={Contact} />
+			</Switch>
 			<SocialComponent />
-		</Fragment>
+		</Router>
 	);
-}
+};
 
 export default App;

@@ -24,10 +24,6 @@ adobe xd (xdguru)- more UI kits
 	--black-color: #0b0c10;
 	--peach-color: #c5c6c7;
 	--grey-color: #1f2833;
-	background-color: white;
-	background-image: url('bckgrndmenu.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 * {

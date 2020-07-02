@@ -35,9 +35,6 @@ const SocialMedia = () => {
 				</a>
 			</div>
 		</div>
-		// <StickyContainer style={{ zIndex: 2 }}>
-		// 	<Sticky>{social}</Sticky>
-		// </StickyContainer>
 	);
 };
 
