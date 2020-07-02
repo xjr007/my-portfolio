@@ -11,8 +11,11 @@ function App() {
 	return (
 		<Fragment>
 			<Router>
-				<Route exact path='/' component={Landing} />
-				<Route exact path='/contact' component={Contact} />
+				<div className='App'>
+					<Landing />
+					<Route exact path='/' component={Landing} />
+					<Route exact path='/contact' component={Contact} />
+				</div>
 			</Router>
 			<SocialComponent />
 		</Fragment>
