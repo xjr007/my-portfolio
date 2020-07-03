@@ -7,7 +7,7 @@ const Navbar = () => {
 		<nav className='navbar nav-colour'>
 			<ul>
 				<li className='back-landing nav-item'>
-					<Link to='/'>Aaqiel Behardien</Link>
+					<Link to='/my-portfolio'>Aaqiel Behardien</Link>
 				</li>
 			</ul>
 

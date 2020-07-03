@@ -8,7 +8,7 @@ const ContactPage = () => {
 	return (
 		<Fragment>
 			<Navbar />
-			<ContactForm className='contact-form' />
+			<ContactForm className='' />
 		</Fragment>
 	);
 };

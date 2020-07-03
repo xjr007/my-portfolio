@@ -1,5 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import {
+	Form,
+	Row,
+	Col,
+	FormGroup,
+	FormLabel,
+	FormControl,
+} from 'react-bootstrap';
 
 // <form>
 // 	<input type='text' placeholder='name' name='name' />
@@ -14,59 +22,74 @@ import '../../App.css';
 
 const ContactForm = () => {
 	return (
-		<div className='row form-handle'>
-			<h3 className='cntc'>Contact me</h3>
-			<form
-				className='col s12'
+		<Form
+			style={{
+				position: 'fixed',
+				right: '10%',
+				top: '15%',
+				width: '500px',
+				border: 'solid 5px grey',
+				padding: '40px',
+				overflow: 'hidden',
+			}}>
+			<h3
 				style={{
-					width: '700px',
-					height: '400px',
-					position: 'absolute',
-					transform: 'translate(40%, 40%)',
-					border: '5px solid var(--grey-colour)',
+					padding: '0',
+					margin: '0',
+					marginBottom: '50px',
+					left: '0%',
+					position: 'relative',
+					width: '100%',
 				}}>
-				<div className='row' style={{ transform: 'translate(10%, 20%)' }}>
-					<div className='input-field col s6'>
-						<input
-							placeholder='name'
-							type='text'
-							className='validate'
-							style={somestyle}
-						/>
-					</div>
-					<div className='input-field col s6'>
-						<input
-							placeholder='email'
-							type='text'
-							className='validate'
-							style={somestyle}
-						/>
-					</div>
-				</div>
-				<div className='row'>
-					<div className='input-field col s10' style={msgstyle}>
-						<input type='text' placeholder='message' className='validate' />
-					</div>
-				</div>
-				<div>
-					<input
-						type='submit'
-						className='btn btn-primary btn-block'
-						style={{ backgroundColor: 'grey', transform: 'translate(340%, 500%)' }}
+				Contact Me
+			</h3>
+			<Row>
+				<FormGroup as={Col} style={{ padding: '0', marginBottom: '40px' }}>
+					<Form.Label>Name</Form.Label>
+					<Form.Control placeholder='Name' />
+				</FormGroup>
+				<FormGroup as={Col} style={{ marginLeft: '0px', padding: '0' }}>
+					<Form.Label>Email</Form.Label>
+					<Form.Control placeholder='Email' />
+				</FormGroup>
+			</Row>
+			<Row>
+				<FormGroup>
+					<Form.Label>Message</Form.Label>
+					<FormControl
+						as='textarea'
+						placeholder='Message'
+						style={{ left: '10px', width: '100%', height: '150px' }}
 					/>
-				</div>
-			</form>
-		</div>
+				</FormGroup>
+			</Row>
+		</Form>
 	);
 };
-const somestyle = {
-	width: '200px',
+
+const formStyling = {
+	position: 'fixed',
+	left: '30%',
+	top: '30%',
+	display: 'grid',
+	gridTemplateColumns: 'repeat(2, 1fr)',
+	gridTemplateRows: 'repeat(2, 1fr)',
 };
-const msgstyle = {
-	width: '450px',
-	height: '200px',
-	position: 'absolute',
-	transform: 'translate(25%, 30%)',
+
+const nameStyle = {
+	gridColumn: '1',
+	gridRow: '1',
+	paddingRight: '50px',
+};
+const emailStyle = {
+	gridColumn: '2',
+	gridRow: '1',
+};
+const messageStyle = {
+	gridColumn: '1',
+	gridRow: '2',
+	width: '200%',
+	paddingTop: '30px',
 };
 
 export default ContactForm;

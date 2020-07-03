@@ -7,7 +7,7 @@ const LandingPage = () => {
 	const onClick = () => {};
 	return (
 		<Fragment>
-			<section className='main-landing'>
+			<section className='main-landing scrollbar-hidden'>
 				<div className='main-centered'>
 					<h1>Hi, I am Aaqiel Behardien</h1>
 					<p className='f-l'>

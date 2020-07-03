@@ -9,10 +9,17 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 const SocialMedia = () => {
 	return (
 		<div className='fixed-action-btn'>
-			<div className='social-media'>
+			<div
+				style={{
+					position: 'fixed',
+					left: '10px',
+					right: 0,
+					bottom: '35%',
+					width: '20%',
+				}}>
 				<a
 					rel='noopener noerferrer'
-					href='https://instagram.com'
+					href='https://www.instagram.com/aaqiel_behardien/'
 					target='_blank'
 					className='soc insta'>
 					<InstagramIcon style={largerIcons}></InstagramIcon>
@@ -20,7 +27,7 @@ const SocialMedia = () => {
 				<div></div>
 				<a
 					rel='noopener noerferrer'
-					href='https://linkedin.com'
+					href='https://www.linkedin.com/in/aaqiel-behardien-53a2aa161/'
 					className='soc link'
 					target='_blank'>
 					<LinkedInIcon style={largerIcons}></LinkedInIcon>
@@ -28,7 +35,7 @@ const SocialMedia = () => {
 				<div></div>
 				<a
 					rel='noopener noerferrer'
-					href='https://github.com'
+					href='https://github.com/xjr007'
 					className='soc git'
 					target='_blank'>
 					<GitHubIcon style={largerIcons}></GitHubIcon>
