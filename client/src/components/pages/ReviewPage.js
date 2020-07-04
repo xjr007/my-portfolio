@@ -1,14 +1,13 @@
 import React, { Fragment } from 'react';
-import Navbar from '../layout/Navbar';
-import Card from '../../cards/Cards';
 
-const ProjectPage = () => {
+import Navbar from '../layout/Navbar';
+
+const ReviewPage = () => {
 	return (
 		<Fragment>
 			<Navbar />
-			<Card />
 		</Fragment>
 	);
 };
 
-export default ProjectPage;
+export default ReviewPage;

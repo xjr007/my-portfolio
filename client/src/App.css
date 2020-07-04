@@ -91,9 +91,7 @@ Landing page
 */
 
 .main-landing {
-	background-image: url(gifbckgroundmain.gif);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url(./assets/background_landing_rustic.jpg) no-repeat center center;
 	display: grid;
 	align-items: center;
 	height: 100vh;
@@ -102,9 +100,10 @@ Landing page
 }
 
 .main-centered {
+	background-color: #c2a462;
 	text-align: center;
-	color: #800020;
-	border: 5px solid #800020;
+	color: white;
+	border: 5px solid #cd853f;
 	margin-left: 20%;
 	margin-right: 20%;
 }
@@ -226,6 +225,7 @@ Grids
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 1rem;
 }
+
 /*About page*/
 
 .about-box {
@@ -250,6 +250,21 @@ Grids
 	top: 20%;
 	width: 250px;
 	height: 300px;
+	transform: scale(1);
+	transition: transform 0.5s ease;
+	box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.profile-photo:hover {
+	transform: scale(1.1);
+}
+/*Project Page*/
+
+.heading-proj {
+	padding-top: 0;
+	position: relative;
+	left: 39.3rem;
+	font-size: 40px;
 }
 
 /*Contact Page*/

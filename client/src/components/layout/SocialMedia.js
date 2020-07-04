@@ -15,7 +15,7 @@ const SocialMedia = () => {
 					left: '10px',
 					right: 0,
 					bottom: '35%',
-					width: '20%',
+					width: '0',
 				}}>
 				<a
 					rel='noopener noerferrer'

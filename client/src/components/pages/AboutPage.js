@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
 import Navbar from '../layout/Navbar';
-import profphot from './bckgrnd.jpg';
+import Me from '../../assets/aaqiel.jpg';
 const AboutPage = () => {
 	return (
 		<Fragment>
 			<Navbar />
 			<div className='about-box'>
-				<img src={profphot} alt='photo' className='profile-photo' />
+				<img src={Me} alt='photo' className='profile-photo' />
 				<div className='about-info'>
 					<h1>About Aaqiel Behardien</h1>
 					<p style={{ width: '800px' }}>
