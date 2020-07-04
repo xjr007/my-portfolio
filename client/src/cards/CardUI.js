@@ -9,15 +9,13 @@ const Card = (props) => {
 			</div>
 			<div className='card-body text-dark'>
 				<h4 className='card-title'>{props.title}</h4>
-				<p className='card-text text-secondary'>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam inventore
-					odit commodi magnam. Sequi libero esse vel optio, consectetur sunt!
-				</p>
+				<p className='card-text text-secondary'></p>
 				<a
 					rel='noopener noerferrer'
 					target='_blank'
 					href={props.link}
-					className='btn btn-outline-success'>
+					className='btn btn-outline-success btn-move'
+					style={{ backgroundColor: 'white', color: 'black' }}>
 					View
 				</a>
 			</div>

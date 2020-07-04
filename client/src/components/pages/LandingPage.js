@@ -65,9 +65,8 @@ const LandingPage = () => {
 
 				<div className='msg-menu'>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-						perferendis, quam mollitia quis nesciunt adipisci beatae nemo aspernatur
-						fuga, magni quibusdam labore quod ad cumque eos est dolor pariatur modi!
+						In the year of the pandemic (2020), that's when I decided it is time to
+						re-shape my life. Join me on my journey and explore the "now".
 					</p>
 				</div>
 			</section>

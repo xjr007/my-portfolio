@@ -1,25 +1,29 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Card from './CardReviewsUI';
-import contactKeeper from '../assets/contactkeeper.jpg';
-import githubFinder from '../assets/githubfinder.jpg';
-import lcOnline from '../assets/lconline.jpg';
-
-// import img1 from ''; here
+import { GODWIN_COMMENT, JASON_COMMENT } from '../assets/reviews/Comments';
 
 const CardReviews = () => {
 	return (
-		<div className='container-fluid d-flex justify-content-center'>
-			<div
-				className='row heading-proj '
-				style={{ padding: '0', margin: '0', border: '0', width: '300px' }}>
-				Reviews
-			</div>
-			<div
-				className='row'
-				style={{ padding: '0', margin: '0', border: '0', width: '300px' }}>
-				<Card review='Review message' title='Person 1' />
-				<Card review='Review message' title='Person 1' />
-				<Card review='Review message' title='Person 1' />
+		<div className='container justify-content-center'>
+			<div className='row heading-proj '>Feedback</div>
+			<div className='row card-placement'>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'>
+					<Card
+						review={GODWIN_COMMENT}
+						title='Godwin Dzvapatsva (Head of Curriculum and Learning)'
+					/>
+					<Card review={JASON_COMMENT} title='Jason Wandrag (Lecturer)' />
+
+					<Card review='Review message' title='Person 1' />
+				</div>
 			</div>
 		</div>
 	);
