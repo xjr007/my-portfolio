@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.8cf9ce52.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.7afabb1c.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.7afabb1c.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.3b23bc66.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.944e8f2d.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.944e8f2d.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.d891d3af.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.d891d3af.js.map",
     "static/css/2.b55fba9d.chunk.css": "/my-portfolio/static/css/2.b55fba9d.chunk.css",
     "static/js/2.1f94a03d.chunk.js": "/my-portfolio/static/js/2.1f94a03d.chunk.js",
     "static/js/2.1f94a03d.chunk.js.map": "/my-portfolio/static/js/2.1f94a03d.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.783152cb8df2de1f174b1e79a8504dab.js": "/my-portfolio/precache-manifest.783152cb8df2de1f174b1e79a8504dab.js",
+    "precache-manifest.46bdcf9af58774def4e945e4d7a2fd7d.js": "/my-portfolio/precache-manifest.46bdcf9af58774def4e945e4d7a2fd7d.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
     "static/css/2.b55fba9d.chunk.css.map": "/my-portfolio/static/css/2.b55fba9d.chunk.css.map",
-    "static/css/main.8cf9ce52.chunk.css.map": "/my-portfolio/static/css/main.8cf9ce52.chunk.css.map",
+    "static/css/main.3b23bc66.chunk.css.map": "/my-portfolio/static/css/main.3b23bc66.chunk.css.map",
     "static/js/2.1f94a03d.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.1f94a03d.chunk.js.LICENSE.txt",
     "static/media/aaqiel.jpg": "/my-portfolio/static/media/aaqiel.2403081b.jpg",
-    "static/media/App.css": "/my-portfolio/static/media/background_landing_rustic.692000ad.jpg",
+    "static/media/App.css": "/my-portfolio/static/media/background_landing_rustic.ed37d6ae.jpg",
     "static/media/contactkeeper.jpg": "/my-portfolio/static/media/contactkeeper.58ee0ae4.jpg",
     "static/media/githubfinder.jpg": "/my-portfolio/static/media/githubfinder.3b0d4bcb.jpg",
     "static/media/bootstrap.min.css": "/my-portfolio/static/media/glyphicons-halflings-regular.fa277232.woff",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.d891d3af.js",
     "static/css/2.b55fba9d.chunk.css",
     "static/js/2.1f94a03d.chunk.js",
-    "static/css/main.8cf9ce52.chunk.css",
-    "static/js/main.7afabb1c.chunk.js"
+    "static/css/main.3b23bc66.chunk.css",
+    "static/js/main.944e8f2d.chunk.js"
   ]
 }
