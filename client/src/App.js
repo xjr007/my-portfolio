@@ -1,6 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+import {
+	CONTACT_PAGE,
+	PROJECT_PAGE,
+	ABOUT_PAGE,
+	RESUME_PAGE,
+	REVIEWS_PAGE,
+} from './components/layout/links/Links';
+
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import Landing from './components/pages/LandingPage';
@@ -19,10 +27,10 @@ const App = () => {
 			<div className='App'>
 				<Switch>
 					<Route exact path='/my-portfolio/' component={Landing} />
-					<Route exact path='/my-portfolio/contact' component={Contact} />
-					<Route exact path='/my-portfolio/about' component={About} />
-					<Route exact path='/my-portfolio/projects' component={Project} />
-					<Route exact path='/my-portfolio/reviews' component={Reviews} />
+					<Route exact path={CONTACT_PAGE} component={Contact} />
+					<Route exact path={ABOUT_PAGE} component={About} />
+					<Route exact path={PROJECT_PAGE} component={Project} />
+					<Route exact path={REVIEWS_PAGE} component={Reviews} />
 				</Switch>
 				<SocialComponent />
 			</div>

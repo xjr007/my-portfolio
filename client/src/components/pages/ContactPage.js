@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
 import ContactForm from '../form/ContactForm';
 
 import Navbar from '../layout/Navbar';
@@ -7,8 +6,10 @@ import Navbar from '../layout/Navbar';
 const ContactPage = () => {
 	return (
 		<Fragment>
-			<Navbar />
-			<ContactForm className='' />
+			<div className='page-layout'>
+				<Navbar />
+				<ContactForm />
+			</div>
 		</Fragment>
 	);
 };

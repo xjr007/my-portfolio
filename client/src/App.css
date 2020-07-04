@@ -24,6 +24,15 @@ adobe xd (xdguru)- more UI kits
 	--black-colour: #0b0c10;
 	--peach-colour: #c5c6c7;
 	--grey-colour: #1f2833;
+	--coffee-colour: #2b2222;
+	--brown-colour: #7a4f3b;
+
+	scroll-behavior: smooth;
+	background-color: var(--brown-colour);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
 }
 
 * {
@@ -122,6 +131,7 @@ Landing page
 	color: white !important;
 	transform: scale(1.1) translate(0, 40%);
 }
+
 /*
 Navigation menu
 */
@@ -131,7 +141,7 @@ Navigation menu
 }
 
 .main-menu {
-	background-color: #2b2222;
+	background-color: var(--coffee-colour);
 	color: white;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -173,7 +183,7 @@ Navigation menu
 }
 
 .btn-menu:hover {
-	color: #7a4f3b !important;
+	color: var(--brown-colour) !important;
 	background-color: whitesmoke !important;
 	transform: scale(1.1);
 }
@@ -279,13 +289,22 @@ Grids
 /*Project Page*/
 
 .heading-proj {
+	display: flex;
 	padding-top: 0;
-	position: relative;
-	left: 39.3rem;
 	font-size: 40px;
+	align-items: center;
+	justify-content: center;
 }
 
 /*Contact Page*/
+
+.page-layout {
+	padding: 0;
+	margin: 0;
+	background: url(./assets/lightwoodenbackground.jpg) no-repeat center center;
+	height: 100vh;
+	width: 100%;
+}
 
 .cntc {
 	transform: translate(205%, 250%);
@@ -306,7 +325,13 @@ Grids
 	position: absolute;
 	float: right;
 }
-/*Form*/
+
+/*Navbar*/
+
+.nav-colour {
+	background-color: var(--coffee-colour);
+}
+
 .back-landing {
 	text-transform: uppercase;
 	padding-left: 40px;
@@ -317,15 +342,25 @@ Grids
 	margin-right: 20px;
 }
 
-.nav-item:hover {
+.nav-name:hover {
 	text-decoration: underline;
+	transform: translate3d(5px);
+	transition: transform text-decoration 0.5s ease-in-out;
+	transform: translate(2px, 2px);
+	color: white;
+}
+
+.nav-links:hover {
+	text-decoration: underline;
+	transform: translate3d(5px);
+	transition: transform text-decoration 0.5s ease-in-out;
+	transform: translate(2px, 2px);
+	color: var(--coffee-colour);
+	background-color: white;
+	border-radius: 3px;
 }
 
 .nav-dir {
 	float: right;
 	padding-right: 3%;
-}
-
-.nav-colour {
-	background-color: var(--grey-colour);
 }

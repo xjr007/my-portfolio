@@ -5,8 +5,10 @@ import Card from '../../cards/Cards';
 const ProjectPage = () => {
 	return (
 		<Fragment>
-			<Navbar />
-			<Card />
+			<div className='page-layout'>
+				<Navbar />
+				<Card />
+			</div>
 		</Fragment>
 	);
 };

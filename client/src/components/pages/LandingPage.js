@@ -1,10 +1,16 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../../App.css';
 import 'materialize-css/dist/css/materialize.min.css';
+import {
+	CONTACT_PAGE,
+	PROJECT_PAGE,
+	ABOUT_PAGE,
+	RESUME_PAGE,
+	REVIEWS_PAGE,
+} from '../../components/layout/links/Links';
 
 const LandingPage = () => {
-	const onClick = () => {};
 	return (
 		<Fragment>
 			<section className='main-landing scrollbar-hidden'>
@@ -13,45 +19,45 @@ const LandingPage = () => {
 					<p className='f-l'>
 						A Junior <b>Web Developer</b>
 					</p>
-					<button
+					<a
 						type='button'
-						onClick={onClick}
+						href='#section-menu'
 						className='waves-effect waves-light btn brown darken-3 main-btn-landing'>
 						Explore
-					</button>
+					</a>
 				</div>
 			</section>
 
-			<section className='main-menu'>
+			<section id='section-menu' className='main-menu'>
 				<h2 className='heading-btn-menu'>My Journey</h2>
 				<div className='grid-menu'>
 					<Link
 						type='button'
-						to='my-portfolio/resume'
+						to={RESUME_PAGE}
 						className='waves-effect waves-light btn brown btn-menu'>
 						Resume
 					</Link>
 					<Link
 						type='button'
-						to='my-portfolio/about'
+						to={ABOUT_PAGE}
 						className='waves-effect waves-light btn brown btn-menu'>
 						About
 					</Link>
 					<Link
 						type='button'
-						to='my-portfolio/reviews'
+						to={REVIEWS_PAGE}
 						className='waves-effect waves-light btn brown btn-menu'>
 						Reviews
 					</Link>
 					<Link
 						type='button'
-						to='my-portfolio/projects'
+						to={PROJECT_PAGE}
 						className='waves-effect waves-light btn brown btn-menu'>
 						Projects
 					</Link>
 					<Link
 						type='button'
-						to='my-portfolio/contact'
+						to={CONTACT_PAGE}
 						className='waves-effect waves-light btn brown btn-menu'>
 						Contact
 					</Link>

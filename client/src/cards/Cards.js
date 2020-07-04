@@ -16,23 +16,32 @@ const Cards = () => {
 	return (
 		<div className='container-fluid d-flex justify-content-center'>
 			<div className='row heading-proj'>Projects</div>
-			<div className='row'>
-				<div className='col-md-4'>
-					<Card
-						imgsrc={contactKeeper}
-						title='Contact Keeper App'
-						link={linkContactKeeper}
-					/>
-				</div>
-				<div className='col-md-4'>
-					<Card
-						imgsrc={githubFinder}
-						title='Github Finder App'
-						link={linkGithubFinder}
-					/>
-				</div>
-				<div className='col-md-4'>
-					<Card imgsrc={lcOnline} title='Python Sign in/Log out' link={linkSignIn} />
+			<div
+				className='row'
+				style={{ padding: '0', paddingTop: '50px', paddingBottom: '50px' }}>
+				<div className='col-md-2'></div>
+				<div className='col'>
+					<div className='col-md-4'>
+						<Card
+							imgsrc={contactKeeper}
+							title='Contact Keeper App'
+							link={linkContactKeeper}
+						/>
+					</div>
+					<div className='col-md-4'>
+						<Card
+							imgsrc={githubFinder}
+							title='Github Finder App'
+							link={linkGithubFinder}
+						/>
+					</div>
+					<div className='col-md-4'>
+						<Card
+							imgsrc={lcOnline}
+							title='Python Sign in/Log out'
+							link={linkSignIn}
+						/>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -4,10 +4,13 @@ body {
 
 .card {
 	width: 20rem;
+	border-radius: 20px !important;
+	border: thin 1px blue;
 }
 
 .card:hover {
 	box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+	border-radius: 20px !important;
 }
 
 .card-body {
@@ -19,10 +22,6 @@ body {
 	padding: 0.4 rem 1.9rem;
 }
 
-.container-fluid {
-	transform: translate(6%, 0%);
-}
-
 .container-fluid .row {
 	padding-top: 3rem;
 }
@@ -32,12 +31,14 @@ body {
 }
 
 .card-img-top {
+	border-radius: 20px !important;
 	width: 400px;
-	height: 300px;
+	height: 200px;
 	transform: scale(1);
 	transition: transform 0.5s ease;
 }
 
 .card-img-top:hover {
 	transform: scale(1.1);
+	border-radius: 20px !important;
 }

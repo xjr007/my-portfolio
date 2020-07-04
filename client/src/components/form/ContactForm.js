@@ -25,12 +25,14 @@ const ContactForm = () => {
 		<Form
 			style={{
 				position: 'fixed',
-				right: '10%',
-				top: '15%',
+				right: '35%',
+				top: '20%',
 				width: '500px',
-				border: 'solid 5px grey',
 				padding: '40px',
 				overflow: 'hidden',
+				backgroundColor: '#2b2222',
+				color: 'white',
+				borderRadius: '10px',
 			}}>
 			<h3
 				style={{
@@ -46,11 +48,21 @@ const ContactForm = () => {
 			<Row>
 				<FormGroup as={Col} style={{ padding: '0', marginBottom: '40px' }}>
 					<Form.Label>Name</Form.Label>
-					<Form.Control placeholder='Name' />
+					<Form.Control
+						placeholder='Name'
+						style={{ backgroundColor: 'white', borderRadius: '5px' }}
+					/>
 				</FormGroup>
 				<FormGroup as={Col} style={{ marginLeft: '0px', padding: '0' }}>
-					<Form.Label>Email</Form.Label>
-					<Form.Control placeholder='Email' />
+					<Form.Label style={{ marginLeft: '27px' }}>Email</Form.Label>
+					<Form.Control
+						placeholder='Email'
+						style={{
+							marginLeft: '27px',
+							backgroundColor: 'white',
+							borderRadius: '5px',
+						}}
+					/>
 				</FormGroup>
 			</Row>
 			<Row>
@@ -59,37 +71,17 @@ const ContactForm = () => {
 					<FormControl
 						as='textarea'
 						placeholder='Message'
-						style={{ left: '10px', width: '100%', height: '150px' }}
+						style={{
+							left: '10px',
+							width: '100%',
+							height: '150px',
+							backgroundColor: 'white',
+						}}
 					/>
 				</FormGroup>
 			</Row>
 		</Form>
 	);
-};
-
-const formStyling = {
-	position: 'fixed',
-	left: '30%',
-	top: '30%',
-	display: 'grid',
-	gridTemplateColumns: 'repeat(2, 1fr)',
-	gridTemplateRows: 'repeat(2, 1fr)',
-};
-
-const nameStyle = {
-	gridColumn: '1',
-	gridRow: '1',
-	paddingRight: '50px',
-};
-const emailStyle = {
-	gridColumn: '2',
-	gridRow: '1',
-};
-const messageStyle = {
-	gridColumn: '1',
-	gridRow: '2',
-	width: '200%',
-	paddingTop: '30px',
 };
 
 export default ContactForm;
