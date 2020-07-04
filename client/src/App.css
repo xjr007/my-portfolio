@@ -91,7 +91,9 @@ Landing page
 */
 
 .main-landing {
+	z-index: 1;
 	background: url(./assets/background_landing_rustic.jpg) no-repeat center center;
+	background-size: cover;
 	display: grid;
 	align-items: center;
 	height: 100vh;
@@ -100,17 +102,25 @@ Landing page
 }
 
 .main-centered {
-	background-color: #c2a462;
+	z-index: 400;
 	text-align: center;
 	color: white;
-	border: 5px solid #cd853f;
+	border: 5px solid white;
 	margin-left: 20%;
 	margin-right: 20%;
 }
 
 .main-btn-landing {
-	transform: translate(0%, 55%);
 	width: 140px;
+	color: white !important;
+	transform-origin: scale(1);
+	transition: transform 0.5s ease;
+	transform: translate(0, 50%);
+}
+
+.main-btn-landing:hover {
+	color: white !important;
+	transform: scale(1.1) translate(0, 40%);
 }
 /*
 Navigation menu
@@ -121,7 +131,7 @@ Navigation menu
 }
 
 .main-menu {
-	background-color: var(--grey-colour);
+	background-color: #2b2222;
 	color: white;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -158,6 +168,14 @@ Navigation menu
 .btn-menu {
 	margin: 10px;
 	width: 135px;
+	transform-origin: scale(1);
+	transition: transform 0.5s ease;
+}
+
+.btn-menu:hover {
+	color: #7a4f3b !important;
+	background-color: whitesmoke !important;
+	transform: scale(1.1);
 }
 
 .btn-sz-l {

@@ -16,7 +16,7 @@ const LandingPage = () => {
 					<button
 						type='button'
 						onClick={onClick}
-						className='waves-effect waves-light btn blue-grey darken-3 main-btn-landing'>
+						className='waves-effect waves-light btn brown darken-3 main-btn-landing'>
 						Explore
 					</button>
 				</div>
@@ -27,32 +27,32 @@ const LandingPage = () => {
 				<div className='grid-menu'>
 					<Link
 						type='button'
-						to='/resume'
-						className='waves-effect waves-light btn blue btn-menu'>
+						to='my-portfolio/resume'
+						className='waves-effect waves-light btn brown btn-menu'>
 						Resume
 					</Link>
 					<Link
 						type='button'
-						to='/about'
-						className='waves-effect waves-light btn blue btn-menu'>
+						to='my-portfolio/about'
+						className='waves-effect waves-light btn brown btn-menu'>
 						About
 					</Link>
 					<Link
 						type='button'
-						to='/reviews'
-						className='waves-effect waves-light btn blue btn-menu'>
+						to='my-portfolio/reviews'
+						className='waves-effect waves-light btn brown btn-menu'>
 						Reviews
 					</Link>
 					<Link
 						type='button'
-						to='/projects'
-						className='waves-effect waves-light btn blue btn-menu'>
+						to='my-portfolio/projects'
+						className='waves-effect waves-light btn brown btn-menu'>
 						Projects
 					</Link>
 					<Link
 						type='button'
-						to='/contact'
-						className='waves-effect waves-light btn blue btn-menu'>
+						to='my-portfolio/contact'
+						className='waves-effect waves-light btn brown btn-menu'>
 						Contact
 					</Link>
 				</div>

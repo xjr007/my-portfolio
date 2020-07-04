@@ -19,10 +19,10 @@ const App = () => {
 			<div className='App'>
 				<Switch>
 					<Route exact path='/my-portfolio/' component={Landing} />
-					<Route exact path='/contact' component={Contact} />
-					<Route exact path='/about' component={About} />
-					<Route exact path='/projects' component={Project} />
-					<Route exact path='/reviews' component={Reviews} />
+					<Route exact path='/my-portfolio/contact' component={Contact} />
+					<Route exact path='/my-portfolio/about' component={About} />
+					<Route exact path='/my-portfolio/projects' component={Project} />
+					<Route exact path='/my-portfolio/reviews' component={Reviews} />
 				</Switch>
 				<SocialComponent />
 			</div>

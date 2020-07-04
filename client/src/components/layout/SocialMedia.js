@@ -1,6 +1,5 @@
 import React from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
-import '../../App.css';
 
 import InstagramIcon from '@material-ui/icons/Instagram';
 import GitHubIcon from '@material-ui/icons/GitHub';

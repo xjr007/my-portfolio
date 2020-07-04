@@ -13,19 +13,19 @@ const Navbar = () => {
 
 			<ul className='nav-dir'>
 				<li className='nav-item'>
-					<Link to='/projects'>Projects</Link>
+					<Link to='projects'>Projects</Link>
 				</li>
 				<li className='nav-item'>
-					<Link to='/reviews'>Reviews</Link>
+					<Link to='reviews'>Reviews</Link>
 				</li>
 				<li className='nav-item'>
-					<Link to='/resume'>Resume</Link>
+					<Link to='resume'>Resume</Link>
 				</li>
 				<li className='nav-item'>
-					<Link to='/About'>About</Link>
+					<Link to='about'>About</Link>
 				</li>
 				<li className='nav-item'>
-					<Link to='/contact'>Contact</Link>
+					<Link to='contact'>Contact</Link>
 				</li>
 			</ul>
 		</nav>
