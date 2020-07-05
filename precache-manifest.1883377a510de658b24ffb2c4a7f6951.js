@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5a94eedad64e5090809dcd41eb3188f",
+    "revision": "49d8d251223783d1408b84c5ff3b09a0",
     "url": "/my-portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/css/2.b55fba9d.chunk.css"
   },
   {
-    "revision": "a81996e6c5393af73fb7",
-    "url": "/my-portfolio/static/css/main.de41d313.chunk.css"
+    "revision": "daa414cd0a2933470f7f",
+    "url": "/my-portfolio/static/css/main.e4921a90.chunk.css"
   },
   {
     "revision": "75f353ad91d3b613b85b",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/js/2.b3280fc9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a81996e6c5393af73fb7",
+    "revision": "daa414cd0a2933470f7f",
     "url": "/my-portfolio/static/js/main.73e041eb.chunk.js"
   },
   {
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "23242f1516c253696224b6155be4785a",
     "url": "/my-portfolio/static/media/coffee-plant.23242f15.jpg"
+  },
+  {
+    "revision": "118d4b904cc8590601871eca8414a83f",
+    "url": "/my-portfolio/static/media/coffee-wood.118d4b90.jpg"
   },
   {
     "revision": "58ee0ae4f4d27739f52efdacac24984c",
