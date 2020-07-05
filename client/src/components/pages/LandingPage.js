@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import '../../App.css';
 import 'materialize-css/dist/css/materialize.min.css';
@@ -36,12 +36,6 @@ const LandingPage = () => {
 						to={RESUME_PAGE}
 						className='waves-effect waves-light btn brown btn-menu'>
 						Resume
-					</Link>
-					<Link
-						type='button'
-						to={ABOUT_PAGE}
-						className='waves-effect waves-light btn brown btn-menu'>
-						About
 					</Link>
 					<Link
 						type='button'

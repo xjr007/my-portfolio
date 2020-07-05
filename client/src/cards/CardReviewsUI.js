@@ -8,8 +8,8 @@ const CardReviewsUI = (props) => {
 				style={{
 					paddingLeft: '10px',
 					fontSize: '25px',
-					backgroundColor: 'pink',
-					color: 'black',
+					backgroundColor: '#7a4f3b',
+					color: 'white',
 				}}>
 				Review
 			</Card.Header>

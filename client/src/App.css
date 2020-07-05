@@ -188,6 +188,12 @@ Navigation menu
 	transform: scale(1.1);
 }
 
+.btn-about:hover {
+	color: var(--brown-colour) !important;
+	background-color: whitesmoke !important;
+	transform: scale(1.1);
+}
+
 .btn-sz-l {
 	width: 420px;
 }
@@ -451,7 +457,7 @@ Grids
 	width: 50%;
 	width: 50px;
 	height: 2px;
-	background: #0bb54f;
+	background: var(--coffee-colour);
 }
 
 .resume .resume-right .resume-hobby ul li:last-child::before {
@@ -471,14 +477,13 @@ Grids
 .about-page {
 	padding: 0;
 	margin: 0;
-	background: url(./assets/darkwoodenbackground.jpg) no-repeat center center;
+	background: url(./assets/lightwoodenbackground.jpg) no-repeat center center;
 	height: 100vh;
 	width: 100%;
 }
 
 .about-box {
 	display: grid;
-	color: white;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
 	position: fixed;
@@ -515,6 +520,8 @@ Grids
 /*Project Page*/
 
 .btn-move {
+	background-color: white !important;
+	color: var(--coffee-colour) !important;
 	margin: 10px;
 	width: 135px;
 	transform-origin: scale(1);
@@ -522,15 +529,15 @@ Grids
 }
 
 .btn-move:hover {
-	color: var(--brown-colour) !important;
-	background-color: darkcyan !important;
+	color: white !important;
+	background-color: var(--brown-colour) !important;
 	transform: scale(1.1);
 }
 
 .heading-proj {
 	display: flex;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 0;
 	font-size: 40px;
 	align-items: center;
 	justify-content: center;

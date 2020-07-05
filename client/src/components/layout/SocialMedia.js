@@ -17,7 +17,7 @@ const SocialMedia = () => {
 					width: '0',
 				}}>
 				<a
-					rel='noopener noerferrer'
+					rel='noopener noreferrer'
 					href='https://www.instagram.com/aaqiel_behardien/'
 					target='_blank'
 					className='soc insta'>
@@ -25,7 +25,7 @@ const SocialMedia = () => {
 				</a>
 				<div></div>
 				<a
-					rel='noopener noerferrer'
+					rel='noopener noreferrer'
 					href='https://www.linkedin.com/in/aaqiel-behardien-53a2aa161/'
 					className='soc link'
 					target='_blank'>
@@ -33,7 +33,7 @@ const SocialMedia = () => {
 				</a>
 				<div></div>
 				<a
-					rel='noopener noerferrer'
+					rel='noopener noreferrer'
 					href='https://github.com/xjr007'
 					className='soc git'
 					target='_blank'>

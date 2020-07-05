@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 
-import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
+import profile from '../../assets/profile.jpg';
+
 import RoomIcon from '@material-ui/icons/Room';
 import PhoneIcon from '@material-ui/icons/Phone';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
@@ -21,14 +22,30 @@ const Resume = () => {
 					className='resume '
 					style={{ position: 'absolute', left: '10%', top: '15%' }}>
 					<div className='resume-left'>
+						<a
+							rel='noopener noreferrer'
+							target='_blank'
+							href='https://drive.google.com/file/d/1CMV06_59_NZ8sl8rhKd4fP-ziidEfxip/view?usp=sharing'
+							className='btn btn-outline-success btn-about'
+							style={{
+								backgroundColor: 'white',
+								color: '#2b2222',
+								position: 'absolute',
+								top: '10px',
+							}}>
+							View Full Profile
+						</a>
 						<div className='resume-profile'>
-							<PersonOutlineIcon
+							<img
+								src={profile}
 								alt='avatar'
 								style={{
 									fontSize: '150px',
 									position: 'relative',
-									left: '20%',
-									top: '40%',
+									width: '250px',
+									height: '250px',
+									left: '5%',
+									top: '20%',
 									color: 'white',
 								}}
 							/>
@@ -84,11 +101,18 @@ const Resume = () => {
 								</div>
 								<ul>
 									<li>
-										<div className='skill-name'>HTML</div>
+										<div className='skill-name'>Python</div>
 										<div className='skill-progress'>
-											<span style={{ width: '90%' }}></span>
+											<span style={{ width: '80%' }}></span>
 										</div>
-										<div className='skill-per'>90%</div>
+										<div className='skill-per'>80%</div>
+									</li>
+									<li>
+										<div className='skill-name'>React</div>
+										<div className='skill-progress'>
+											<span style={{ width: '80%' }}></span>
+										</div>
+										<div className='skill-per'>80%</div>
 									</li>
 									<li>
 										<div className='skill-name'>JS</div>
@@ -98,11 +122,18 @@ const Resume = () => {
 										<div className='skill-per'>70%</div>
 									</li>
 									<li>
-										<div className='skill-name'>React</div>
+										<div className='skill-name'>HTML</div>
 										<div className='skill-progress'>
-											<span style={{ width: '80%' }}></span>
+											<span style={{ width: '70%' }}></span>
 										</div>
-										<div className='skill-per'>80%</div>
+										<div className='skill-per'>70%</div>
+									</li>
+									<li>
+										<div className='skill-name'>CSS</div>
+										<div className='skill-progress'>
+											<span style={{ width: '60%' }}></span>
+										</div>
+										<div className='skill-per'>60%</div>
 									</li>
 								</ul>
 							</div>
@@ -114,9 +145,9 @@ const Resume = () => {
 								<p className='bold'>About Me</p>
 							</div>
 							<p>
-								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-								tempora, ipsam eveniet recusandae molestiae vitae maxime voluptas quo
-								unde? Possimus?
+								An ambitious junior developer. I am inspired by the obstacles that life
+								throws my way which I am able to overcome with a piece of code and some
+								coffee.
 							</p>
 						</div>
 
@@ -126,32 +157,25 @@ const Resume = () => {
 							</div>
 							<ul>
 								<li>
-									<div className='date'>2013 - 2015</div>
+									<div className='date'>Seasonal 2018, 2019, 2020</div>
 									<div className='info'>
-										<p className='semi-bold'>Lorem ipsum dolor sit amet.</p>
+										<p className='semi-bold'>RSI Construction</p>
 										<p>
-											Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore
-											impedit sequi, eum illum voluptas!
+											Duties: <br /> ● Assisting with plumbing and demolition <br />●
+											Collected / checked / tracked inventory <br />● Driving to job sites{' '}
+											<br />● Collection of heavy machinery and building equipment <br />●
+											Manual labour
 										</p>
 									</div>
 								</li>
+
 								<li>
-									<div className='date'>2013 - 2017</div>
+									<div className='date'>Seasonal 2017</div>
 									<div className='info'>
-										<p className='semi-bold'>Lorem ipsum dolor sit amet.</p>
+										<p className='semi-bold'>Sameer’s Catering</p>
 										<p>
-											Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore
-											impedit sequi, eum illum voluptas!
-										</p>
-									</div>
-								</li>
-								<li>
-									<div className='date'>2013 - Present</div>
-									<div className='info'>
-										<p className='semi-bold'>Lorem ipsum dolor sit amet.</p>
-										<p>
-											Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore
-											impedit sequi, eum illum voluptas!
+											Role: Waiter <br />
+											Duties: Serving food to guests
 										</p>
 									</div>
 								</li>
@@ -163,24 +187,37 @@ const Resume = () => {
 							</div>
 							<ul>
 								<li>
-									<div className='date'>2010 - 2013</div>
+									<div className='date'>2017</div>
 									<div className='info'>
 										<p className='semi-bold'>
 											Cape Academy of Maths, Science and Technology
 										</p>
+										<p>NSC Certificate</p>
+									</div>
+								</li>
+								<br />
+								<br />
+								<li>
+									<div className='date'>2018</div>
+									<div className='info'>
+										<p className='semi-bold'>University of the Western Cape</p>
 										<p>
-											Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore
-											impedit sequi, eum illum voluptas!
+											Period: For 1 year <br />
+											Course: B.Com General <br />
+											Completed: No
 										</p>
 									</div>
 								</li>
+
 								<li>
-									<div className='date'>2013 - 2010</div>
+									<div className='date'>2019</div>
 									<div className='info'>
-										<p className='semi-bold'>Life Choices Academy</p>
+										<p className='semi-bold'>Islamic Studies</p>
 										<p>
-											Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tempore
-											impedit sequi, eum illum voluptas!
+											Period: For 1 year <br />
+											Course: Memorize holy book (Quraan)
+											<br />
+											Completed: No
 										</p>
 									</div>
 								</li>

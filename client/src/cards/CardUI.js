@@ -11,7 +11,7 @@ const Card = (props) => {
 				<h4 className='card-title'>{props.title}</h4>
 				<p className='card-text text-secondary'></p>
 				<a
-					rel='noopener noerferrer'
+					rel='noopener noreferrer'
 					target='_blank'
 					href={props.link}
 					className='btn btn-outline-success btn-move'

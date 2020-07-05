@@ -13,7 +13,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import Landing from './components/pages/LandingPage';
 import Contact from './components/pages/ContactPage';
-import About from './components/pages/AboutPage';
 import Project from './components/pages/ProjectPage';
 import Reviews from './components/pages/ReviewPage';
 import Resume from './components/pages/Resume';
@@ -29,7 +28,6 @@ const App = () => {
 				<Switch>
 					<Route exact path='/my-portfolio/' component={Landing} />
 					<Route exact path={CONTACT_PAGE} component={Contact} />
-					<Route exact path={ABOUT_PAGE} component={About} />
 					<Route exact path={PROJECT_PAGE} component={Project} />
 					<Route exact path={REVIEWS_PAGE} component={Reviews} />
 					<Route exact path={RESUME_PAGE} component={Resume} />

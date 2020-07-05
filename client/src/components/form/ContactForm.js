@@ -1,13 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import {
-	Form,
-	Row,
-	Col,
-	FormGroup,
-	FormLabel,
-	FormControl,
-} from 'react-bootstrap';
+import { Form, Row, Col, FormGroup, FormControl } from 'react-bootstrap';
 
 // <form>
 // 	<input type='text' placeholder='name' name='name' />
@@ -79,6 +72,20 @@ const ContactForm = () => {
 						}}
 					/>
 				</FormGroup>
+			</Row>
+			<Row>
+				<a
+					rel='noopener noerferrer'
+					target='_blank'
+					href='#'
+					className='btn btn-outline-success btn-move'
+					style={{
+						backgroundColor: 'white',
+						color: 'black',
+						marginLeft: '0',
+					}}>
+					Submit
+				</a>
 			</Row>
 		</Form>
 	);

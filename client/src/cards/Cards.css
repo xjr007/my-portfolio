@@ -3,10 +3,9 @@ body {
 }
 
 .card {
-	background-color: #000035;
+	background-color: #2b2222;
 	width: 20rem;
 	border-radius: 10px !important;
-	border: thin 1px blue;
 	color: white;
 }
 
@@ -33,7 +32,7 @@ body {
 }
 
 .card-img-top {
-	border-radius: 20px !important;
+	margin-top: 30px;
 	width: 400px;
 	height: 200px;
 	transform: scale(1);
@@ -42,5 +41,4 @@ body {
 
 .card-img-top:hover {
 	transform: scale(1.1);
-	border-radius: 20px !important;
 }
