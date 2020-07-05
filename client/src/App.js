@@ -16,6 +16,7 @@ import Contact from './components/pages/ContactPage';
 import About from './components/pages/AboutPage';
 import Project from './components/pages/ProjectPage';
 import Reviews from './components/pages/ReviewPage';
+import Resume from './components/pages/Resume';
 
 import SocialComponent from './components/layout/SocialMedia';
 
@@ -31,6 +32,7 @@ const App = () => {
 					<Route exact path={ABOUT_PAGE} component={About} />
 					<Route exact path={PROJECT_PAGE} component={Project} />
 					<Route exact path={REVIEWS_PAGE} component={Reviews} />
+					<Route exact path={RESUME_PAGE} component={Resume} />
 				</Switch>
 				<SocialComponent />
 			</div>
