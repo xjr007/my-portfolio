@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.98615293.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.64153d11.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.64153d11.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.645499d0.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.d1d95011.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.d1d95011.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.d891d3af.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.d891d3af.js.map",
     "static/css/2.b55fba9d.chunk.css": "/my-portfolio/static/css/2.b55fba9d.chunk.css",
-    "static/js/2.a882259c.chunk.js": "/my-portfolio/static/js/2.a882259c.chunk.js",
-    "static/js/2.a882259c.chunk.js.map": "/my-portfolio/static/js/2.a882259c.chunk.js.map",
+    "static/js/2.70087a23.chunk.js": "/my-portfolio/static/js/2.70087a23.chunk.js",
+    "static/js/2.70087a23.chunk.js.map": "/my-portfolio/static/js/2.70087a23.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.64b10538470150e9f76abc9602560548.js": "/my-portfolio/precache-manifest.64b10538470150e9f76abc9602560548.js",
+    "precache-manifest.e5b42fd4699f7802aa4a8ce0886912f0.js": "/my-portfolio/precache-manifest.e5b42fd4699f7802aa4a8ce0886912f0.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
     "static/css/2.b55fba9d.chunk.css.map": "/my-portfolio/static/css/2.b55fba9d.chunk.css.map",
-    "static/css/main.98615293.chunk.css.map": "/my-portfolio/static/css/main.98615293.chunk.css.map",
-    "static/js/2.a882259c.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.a882259c.chunk.js.LICENSE.txt",
+    "static/css/main.645499d0.chunk.css.map": "/my-portfolio/static/css/main.645499d0.chunk.css.map",
+    "static/js/2.70087a23.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.70087a23.chunk.js.LICENSE.txt",
     "static/media/aaqiel.jpg": "/my-portfolio/static/media/aaqiel.2403081b.jpg",
     "static/media/App.css": "/my-portfolio/static/media/lightwoodenbackground.e230f59a.jpg",
     "static/media/contactkeeper.jpg": "/my-portfolio/static/media/contactkeeper.58ee0ae4.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.d891d3af.js",
     "static/css/2.b55fba9d.chunk.css",
-    "static/js/2.a882259c.chunk.js",
-    "static/css/main.98615293.chunk.css",
-    "static/js/main.64153d11.chunk.js"
+    "static/js/2.70087a23.chunk.js",
+    "static/css/main.645499d0.chunk.css",
+    "static/js/main.d1d95011.chunk.js"
   ]
 }
