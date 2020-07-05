@@ -15,7 +15,7 @@ const Card = (props) => {
 					target='_blank'
 					href={props.link}
 					className='btn btn-outline-success btn-move'
-					style={{ backgroundColor: 'white', color: 'black' }}>
+					style={{ backgroundColor: 'smokewhite', color: 'black' }}>
 					View
 				</a>
 			</div>

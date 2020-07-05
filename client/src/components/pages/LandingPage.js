@@ -5,7 +5,6 @@ import 'materialize-css/dist/css/materialize.min.css';
 import {
 	CONTACT_PAGE,
 	PROJECT_PAGE,
-	ABOUT_PAGE,
 	RESUME_PAGE,
 	REVIEWS_PAGE,
 } from '../../components/layout/links/Links';
@@ -65,7 +64,7 @@ const LandingPage = () => {
 				</div>
 			</section>
 			<section>
-				<h6 style={{ textAlign: 'center' }}>abaaqielbehardien@gmail.com</h6>
+				<h6 style={{ textAlign: 'center' }}>Aaqiel Behardien - 2020</h6>
 			</section>
 		</Fragment>
 	);

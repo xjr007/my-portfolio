@@ -8,14 +8,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 const SocialMedia = () => {
 	return (
 		<div className='fixed-action-btn'>
-			<div
-				style={{
-					position: 'fixed',
-					left: '10px',
-					right: 0,
-					bottom: '35%',
-					width: '0',
-				}}>
+			<div className='social-media-style'>
 				<a
 					rel='noopener noreferrer'
 					href='https://www.instagram.com/aaqiel_behardien/'

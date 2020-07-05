@@ -28,9 +28,6 @@ adobe xd (xdguru)- more UI kits
 	--brown-colour: #7a4f3b;
 
 	scroll-behavior: smooth;
-	background-color: var(--brown-colour);
-	background-repeat: no-repeat;
-	background-size: cover;
 	padding: 0;
 	margin: 0;
 }
@@ -59,7 +56,7 @@ section {
 Social media
 */
 
-.social-media {
+.social-media-style {
 	position: 'fixed';
 	left: '10px';
 	right: 0;
@@ -467,8 +464,10 @@ Grids
 .resume-layout {
 	padding: 0;
 	margin: 0;
-	background: url(./assets/lightwoodenbackground.jpg) no-repeat center center;
-	height: 200vh;
+	background-image: url(./assets/lightwoodenbackground.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 220vh;
 	width: 100%;
 }
 
@@ -477,7 +476,7 @@ Grids
 .about-page {
 	padding: 0;
 	margin: 0;
-	background: url(./assets/lightwoodenbackground.jpg) no-repeat center center;
+	background: url(./assets/coffee-keyboard-white.jpg) no-repeat center center;
 	height: 100vh;
 	width: 100%;
 }
@@ -519,6 +518,19 @@ Grids
 }
 /*Project Page*/
 
+.card-styling {
+	padding: 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.sub-heading {
+	position: absolute;
+	left: 35%;
+	top: 30%;
+	font-size: 30px;
+}
+
 .btn-move {
 	background-color: white !important;
 	color: var(--coffee-colour) !important;
@@ -543,6 +555,16 @@ Grids
 	justify-content: center;
 }
 
+.sub-heading-proj {
+	position: relative;
+	left: 35%;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
 /*Review page*/
 
 .review-layout {
@@ -554,6 +576,14 @@ Grids
 }
 
 /*Contact Page*/
+
+.contact-layout {
+	padding: 0;
+	margin: 0;
+	background: url(./assets/lightwoodenbackground.jpg) no-repeat center center;
+	height: 120vh;
+	width: 100%;
+}
 
 .page-layout {
 	padding: 0;
@@ -568,6 +598,35 @@ Grids
 }
 
 /*Form*/
+
+.form-background {
+	background-image: url(./assets/coffee-plant.jpg);
+	width: 100%;
+	position: absolute;
+	right: 35%;
+	top: 15%;
+	width: 500px;
+	padding: 40px;
+	overflow: hidden;
+	color: white;
+	border-radius: 10px;
+}
+
+.form-heading {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+	left: 0;
+	position: relative;
+	width: 100%;
+}
+
+.form-background .form-heading .form-sub-head {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	font-weight: 500;
+}
 
 .form-handle {
 	position: absolute;

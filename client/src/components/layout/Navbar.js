@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import 'materialize-css/dist/css/materialize.min.css';
 import {
 	CONTACT_PAGE,
 	PROJECT_PAGE,
-	ABOUT_PAGE,
 	RESUME_PAGE,
 	REVIEWS_PAGE,
 } from '../../components/layout/links/Links';

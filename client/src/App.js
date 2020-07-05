@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import {
 	CONTACT_PAGE,
 	PROJECT_PAGE,
-	ABOUT_PAGE,
 	RESUME_PAGE,
 	REVIEWS_PAGE,
 } from './components/layout/links/Links';

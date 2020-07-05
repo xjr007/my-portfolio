@@ -5,7 +5,6 @@ import profile from '../../assets/profile.jpg';
 import RoomIcon from '@material-ui/icons/Room';
 import PhoneIcon from '@material-ui/icons/Phone';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import LinkIcon from '@material-ui/icons/Link';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import FitnessCenterIcon from '@material-ui/icons/FitnessCenter';
 import TerrainIcon from '@material-ui/icons/Terrain';
@@ -20,7 +19,7 @@ const Resume = () => {
 			<div className='resume-layout'>
 				<div
 					className='resume '
-					style={{ position: 'absolute', left: '10%', top: '15%' }}>
+					style={{ position: 'absolute', left: '15%', top: '15%' }}>
 					<div className='resume-left'>
 						<a
 							rel='noopener noreferrer'
@@ -86,13 +85,6 @@ const Resume = () => {
 											</p>
 										</div>
 									</li>
-									<li>
-										<div className='icon'>
-											<LinkIcon className='icon-obj' />
-										</div>
-
-										<div className='data'>link here</div>
-									</li>
 								</ul>
 							</div>
 							<div className='resume-item resume-skills'>
@@ -107,26 +99,20 @@ const Resume = () => {
 										</div>
 										<div className='skill-per'>80%</div>
 									</li>
+
 									<li>
-										<div className='skill-name'>React</div>
+										<div className='skill-name'>HTML</div>
 										<div className='skill-progress'>
 											<span style={{ width: '80%' }}></span>
 										</div>
 										<div className='skill-per'>80%</div>
 									</li>
 									<li>
-										<div className='skill-name'>JS</div>
+										<div className='skill-name'>React</div>
 										<div className='skill-progress'>
-											<span style={{ width: '70%' }}></span>
+											<span style={{ width: '60%' }}></span>
 										</div>
-										<div className='skill-per'>70%</div>
-									</li>
-									<li>
-										<div className='skill-name'>HTML</div>
-										<div className='skill-progress'>
-											<span style={{ width: '70%' }}></span>
-										</div>
-										<div className='skill-per'>70%</div>
+										<div className='skill-per'>60%</div>
 									</li>
 									<li>
 										<div className='skill-name'>CSS</div>
@@ -134,6 +120,13 @@ const Resume = () => {
 											<span style={{ width: '60%' }}></span>
 										</div>
 										<div className='skill-per'>60%</div>
+									</li>
+									<li>
+										<div className='skill-name'>JS</div>
+										<div className='skill-progress'>
+											<span style={{ width: '50%' }}></span>
+										</div>
+										<div className='skill-per'>50%</div>
 									</li>
 								</ul>
 							</div>

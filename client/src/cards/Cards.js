@@ -15,10 +15,11 @@ const Cards = () => {
 
 	return (
 		<div className='container-fluid d-flex justify-content-center'>
-			<div className='row heading-proj'>Projects</div>
-			<div
-				className='row'
-				style={{ padding: '0', paddingTop: '50px', paddingBottom: '50px' }}>
+			<div className='row heading-proj'>
+				<h1>Projects</h1>
+				<p className='sub-heading'>Just some of my previous work</p>
+			</div>
+			<div className='row card-styling'>
 				<div className='col-md-2'></div>
 				<div className='col'>
 					<div className='col-md-4'>

@@ -12,6 +12,7 @@
 		"bootstrap": "^3.4.1",
 		"font-awesome": "^4.7.0",
 		"materialize-css": "^1.0.0",
+		"nodemailer": "^6.4.10",
 		"react": "^16.13.1",
 		"react-bootstrap": "^1.0.1",
 		"react-dom": "^16.13.1",

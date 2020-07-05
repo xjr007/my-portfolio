@@ -2,6 +2,19 @@ body {
 	background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
 }
 
+.card-review-style {
+	background: white;
+	color: #2b2222;
+	width: auto !important;
+}
+
+.card-review-style .card-review-header {
+	padding-left: 10px;
+	font-size: 25px;
+	background-color: #7a4f3b;
+	color: white;
+}
+
 .card {
 	background-color: #2b2222;
 	width: 20rem;
