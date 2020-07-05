@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b36e038a68326bb360118d3c98f17c02",
+    "revision": "c5a94eedad64e5090809dcd41eb3188f",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "3fcb733b3be86cfa3149",
+    "revision": "75f353ad91d3b613b85b",
     "url": "/my-portfolio/static/css/2.b55fba9d.chunk.css"
   },
   {
-    "revision": "0a821ad9a13c58e68134",
-    "url": "/my-portfolio/static/css/main.306d48fc.chunk.css"
+    "revision": "a81996e6c5393af73fb7",
+    "url": "/my-portfolio/static/css/main.de41d313.chunk.css"
   },
   {
-    "revision": "3fcb733b3be86cfa3149",
-    "url": "/my-portfolio/static/js/2.c441be92.chunk.js"
+    "revision": "75f353ad91d3b613b85b",
+    "url": "/my-portfolio/static/js/2.b3280fc9.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/my-portfolio/static/js/2.c441be92.chunk.js.LICENSE.txt"
+    "url": "/my-portfolio/static/js/2.b3280fc9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0a821ad9a13c58e68134",
-    "url": "/my-portfolio/static/js/main.8a92c598.chunk.js"
+    "revision": "a81996e6c5393af73fb7",
+    "url": "/my-portfolio/static/js/main.73e041eb.chunk.js"
   },
   {
     "revision": "29164293d54b9c5dd738",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ed37d6ae407999f26d3d85354fefc73c",
     "url": "/my-portfolio/static/media/background_landing_rustic.ed37d6ae.jpg"
+  },
+  {
+    "revision": "35c9dc09ffa002c5ad938b40a06b8f54",
+    "url": "/my-portfolio/static/media/coffee-keyboard-white.35c9dc09.jpg"
+  },
+  {
+    "revision": "23242f1516c253696224b6155be4785a",
+    "url": "/my-portfolio/static/media/coffee-plant.23242f15.jpg"
   },
   {
     "revision": "58ee0ae4f4d27739f52efdacac24984c",
@@ -66,5 +74,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e230f59a5922574a0731061323b3a41d",
     "url": "/my-portfolio/static/media/lightwoodenbackground.e230f59a.jpg"
+  },
+  {
+    "revision": "e9a44c626a9ceb2a78549c7fc412a1af",
+    "url": "/my-portfolio/static/media/profile.e9a44c62.jpg"
   }
 ]);
