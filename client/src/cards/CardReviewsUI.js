@@ -8,8 +8,8 @@ const CardReviewsUI = (props) => {
 			<Card.Body>
 				<blockquote className='blockquote mb-0'>
 					<p> {props.review} </p>
-					<footer className='blockquote-footer'>
-						{props.title} <cite title='Source Title'></cite>
+					<footer className='blockquote-footer' style={{ color: 'white' }}>
+						{props.title}
 					</footer>
 				</blockquote>
 			</Card.Body>

@@ -4,6 +4,7 @@ import {
 	GODWIN_COMMENT,
 	JASON_COMMENT,
 	MISCHA_COMMENT,
+	LUKHANYO_COMMENT,
 } from '../assets/reviews/Comments';
 
 const CardReviews = () => {
@@ -46,6 +47,7 @@ const CardReviews = () => {
 					/>
 					<Card review={JASON_COMMENT} title='Jason Wandrag (Lecturer)' />
 					<Card review={MISCHA_COMMENT} title='Mischa Achmat' />
+					<Card review={LUKHANYO_COMMENT} title='Lukhanyo Vakele' />
 				</div>
 			</div>
 		</div>
