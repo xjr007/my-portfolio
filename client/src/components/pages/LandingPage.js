@@ -65,11 +65,13 @@ const LandingPage = () => {
 			</section>
 			<section
 				style={{
+					position: 'absolute',
 					backgroundColor: 'white',
 					background: 'cover no-repeat',
 					height: '5vh',
 					width: '100%',
-					paddingTop: '10px',
+					padding: '0',
+					margin: '0',
 				}}>
 				<h6 style={{ textAlign: 'center' }}>Aaqiel Behardien - 2020</h6>
 			</section>

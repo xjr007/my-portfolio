@@ -9,7 +9,7 @@ import {
 
 const Navbar = () => {
 	return (
-		<div className='navbar navbar-expand-lg navbar-fixed navbar_styling'>
+		<div className='navbar navbar-expand-lg navbar-fixed'>
 			<nav className='nav-colour'>
 				<ul>
 					<li className='back-landing nav-item'>

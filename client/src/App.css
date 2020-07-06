@@ -637,12 +637,6 @@ Grids
 
 /*Navbar*/
 
-.navbar-styling {
-	position: fixed;
-	padding: 0;
-	margin: 0;
-}
-
 .nav-colour {
 	background-color: var(--coffee-colour);
 }
