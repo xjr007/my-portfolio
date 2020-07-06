@@ -59,11 +59,18 @@ const LandingPage = () => {
 				<div className='msg-menu'>
 					<p>
 						In the year of the pandemic (2020), that's when I decided it is time to
-						re-shape my life. Join me on my journey and explore the "now".
+						re-shape my life. Join me on my journey and explore the "now". <br />
 					</p>
 				</div>
 			</section>
-			<section>
+			<section
+				style={{
+					backgroundColor: 'white',
+					background: 'cover no-repeat',
+					height: '5vh',
+					width: '100%',
+					paddingTop: '10px',
+				}}>
 				<h6 style={{ textAlign: 'center' }}>Aaqiel Behardien - 2020</h6>
 			</section>
 		</Fragment>

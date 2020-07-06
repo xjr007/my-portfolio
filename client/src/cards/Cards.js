@@ -17,7 +17,34 @@ const Cards = () => {
 		<div className='container-fluid d-flex justify-content-center'>
 			<div className='row heading-proj'>
 				<h1>Projects</h1>
-				<p className='sub-heading'>Just some of my previous work</p>
+			</div>
+			<div className='row sub-heading'>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<p>Just some of my previous work</p>
 			</div>
 			<div className='row card-styling'>
 				<div className='col-md-2'></div>

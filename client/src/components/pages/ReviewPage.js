@@ -6,7 +6,7 @@ import Navbar from '../layout/Navbar';
 const ReviewPage = () => {
 	return (
 		<Fragment>
-			<div className='review-layout'>
+			<div>
 				<Navbar />
 				<Review />
 			</div>

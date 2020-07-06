@@ -6,8 +6,8 @@ import Navbar from '../layout/Navbar';
 const ContactPage = () => {
 	return (
 		<Fragment>
-			<div className='contact-layout'>
-				<Navbar />
+			<Navbar />
+			<div className='container'>
 				<ContactForm />
 			</div>
 		</Fragment>

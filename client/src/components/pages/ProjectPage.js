@@ -5,7 +5,7 @@ import Card from '../../cards/Cards';
 const ProjectPage = () => {
 	return (
 		<Fragment>
-			<div className='review-layout'>
+			<div>
 				<Navbar />
 				<Card />
 			</div>

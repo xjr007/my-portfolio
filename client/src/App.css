@@ -26,15 +26,22 @@ adobe xd (xdguru)- more UI kits
 	--grey-colour: #1f2833;
 	--coffee-colour: #2b2222;
 	--brown-colour: #7a4f3b;
+}
 
-	scroll-behavior: smooth;
-	padding: 0;
-	margin: 0;
+.App {
+	background-image: url(./assets/lightwoodenbackground.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	padding-bottom: 10px;
 }
 
 * {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
 		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
 	padding: 0;
 	margin: 0;
 }
@@ -57,7 +64,7 @@ Social media
 */
 
 .social-media-style {
-	position: 'fixed';
+	position: 'absolute';
 	left: '10px';
 	right: 0;
 	bottom: '35%';
@@ -271,6 +278,7 @@ Grids
 }
 
 .resume {
+	position: relative;
 	width: 800px;
 	height: auto;
 	display: flex;
@@ -525,10 +533,8 @@ Grids
 }
 
 .sub-heading {
-	position: absolute;
-	left: 35%;
-	top: 30%;
-	font-size: 30px;
+	font-size: 25px;
+	position: relative;
 }
 
 .btn-move {
@@ -550,6 +556,7 @@ Grids
 	display: flex;
 	padding-top: 50px;
 	padding-bottom: 0;
+	margin-bottom: 0;
 	font-size: 40px;
 	align-items: center;
 	justify-content: center;
@@ -581,16 +588,8 @@ Grids
 	padding: 0;
 	margin: 0;
 	background: url(./assets/lightwoodenbackground.jpg) no-repeat center center;
-	height: 120vh;
-	width: 100%;
-}
-
-.page-layout {
-	padding: 0;
-	margin: 0;
-	background: url(./assets/lightwoodenbackground.jpg) no-repeat center center;
-	height: 100vh;
-	width: 100%;
+	height: 130vh;
+	width: 200%;
 }
 
 .cntc {
@@ -602,9 +601,8 @@ Grids
 .form-background {
 	background-image: url(./assets/coffee-plant.jpg);
 	width: 100%;
-	position: absolute;
-	right: 35%;
-	top: 15%;
+	position: relative;
+	left: 13%;
 	width: 500px;
 	padding: 40px;
 	overflow: hidden;
@@ -628,21 +626,22 @@ Grids
 	font-weight: 500;
 }
 
-.form-handle {
-	position: absolute;
-	transform: translate(50%, -70%);
-}
-
 .inp-bx {
 	width: 25px;
 }
 
 .contact-form {
-	position: absolute;
+	position: relative;
 	float: right;
 }
 
 /*Navbar*/
+
+.navbar-styling {
+	position: fixed;
+	padding: 0;
+	margin: 0;
+}
 
 .nav-colour {
 	background-color: var(--coffee-colour);
@@ -658,12 +657,12 @@ Grids
 	margin-right: 20px;
 }
 
-.nav-name:hover {
-	text-decoration: underline;
-	transform: translate3d(5px);
-	transition: transform text-decoration 0.5s ease-in-out;
-	transform: translate(2px, 2px);
-	color: white;
+.nav-brand:hover {
+	text-decoration: underline !important;
+	transform: translate3d(5px) !important;
+	transition: transform text-decoration 0.5s ease-in-out !important;
+	transform: translate(2px, 2px) !important;
+	color: white !important;
 }
 
 .nav-links:hover {

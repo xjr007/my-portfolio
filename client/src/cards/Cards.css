@@ -16,15 +16,14 @@ body {
 }
 
 .card {
-	background-color: #2b2222;
+	background-image: url(../assets/coffee-wood.jpg);
 	width: 20rem;
 	border-radius: 10px !important;
 	color: white;
 }
 
 .card:hover {
-	box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
-	border-radius: 10px !important;
+	box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.253) !important;
 }
 
 .card-body {

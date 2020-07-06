@@ -140,7 +140,7 @@ const Resume = () => {
 							<p>
 								An ambitious junior developer. I am inspired by the obstacles that life
 								throws my way which I am able to overcome with a piece of code and some
-								coffee.
+								coffee. <br /> <br />I aspire to one day become a data scientist.
 							</p>
 						</div>
 

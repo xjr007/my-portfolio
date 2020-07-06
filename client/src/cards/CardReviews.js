@@ -10,7 +10,26 @@ const CardReviews = () => {
 	return (
 		<div className='container justify-content-center'>
 			<div className='row heading-proj '>Feedback</div>
-			<p className='row sub-heading-proj'>What people have to say about me</p>
+			<div className='row'>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+				<div className='col'></div>
+
+				<div className='col sub-heading'>
+					<p>What people have to say about me</p>
+				</div>
+			</div>
+
 			<div className='row card-placement'>
 				<div className='col'></div>
 				<div className='col'></div>

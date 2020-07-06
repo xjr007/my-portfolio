@@ -9,11 +9,11 @@ import {
 
 const Navbar = () => {
 	return (
-		<div className='navbar-fixed '>
-			<nav className='navbar nav-colour'>
+		<div className='navbar navbar-expand-lg navbar-fixed navbar_styling'>
+			<nav className='nav-colour'>
 				<ul>
 					<li className='back-landing nav-item'>
-						<Link className='nav-name' to='my-portfolio'>
+						<Link className='nav-brand' to='my-portfolio'>
 							Aaqiel Behardien
 						</Link>
 					</li>
