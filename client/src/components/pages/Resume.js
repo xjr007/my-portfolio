@@ -90,22 +90,23 @@ const Resume = () => {
 							<div className='resume-item resume-skills'>
 								<div className='title'>
 									<p className='bold'>Skills</p>
+									<p className='regular'>Based on my understanding</p>
 								</div>
 								<ul>
 									<li>
 										<div className='skill-name'>Python</div>
 										<div className='skill-progress'>
-											<span style={{ width: '80%' }}></span>
+											<span style={{ width: '70%' }}></span>
 										</div>
-										<div className='skill-per'>80%</div>
+										<div className='skill-per'>70%</div>
 									</li>
 
 									<li>
 										<div className='skill-name'>HTML</div>
 										<div className='skill-progress'>
-											<span style={{ width: '80%' }}></span>
+											<span style={{ width: '70%' }}></span>
 										</div>
-										<div className='skill-per'>80%</div>
+										<div className='skill-per'>70%</div>
 									</li>
 									<li>
 										<div className='skill-name'>React</div>
