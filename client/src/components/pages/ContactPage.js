@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import ContactForm from '../form/ContactForm';
+import FormEmail from '../form/formEmail';
 
 import Navbar from '../layout/Navbar';
 
@@ -8,7 +8,7 @@ const ContactPage = () => {
 		<Fragment>
 			<Navbar />
 			<div className='container'>
-				<ContactForm />
+				<FormEmail />
 			</div>
 		</Fragment>
 	);

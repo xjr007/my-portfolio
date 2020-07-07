@@ -1,0 +1,126 @@
+class Contact extends React.Component {
+  // Form state
+  constructor(props) {
+    super(props);
+    this.submitForm = this.submitForm.bind(this);
+    this.state = {
+      status: "",
+    };
+  }
+
+  // On form submit and it also allows user to send email once and if the navigate to another page after submission then it resets
+
+  submitForm(ev) {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        this.setState({ status: "SUCCESS" });
+      } else {
+        this.setState({ status: "ERROR" });
+      }
+    };
+    xhr.send(data);
+  }
+  render() {
+    const { status } = this.state;
+    return (
+      <div className="contact-body">
+        <h1 style={{ textAlign: "center", fontWeight: "bolder" }}>
+          Let's Talk{" "}
+        </h1>
+        <Grid className="contact-grid">
+          <Cell col={10}>
+            <form
+              onSubmit={this.submitForm}
+              action="https://formspree.io/xgennooe"
+              method="POST"
+            >
+              {/* Full Name */}
+              <div className="form-group">
+                <div className="row">
+                  <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                    <label htmlFor="full-name" style={{ fontSize: "1.5em" }}>
+                      Full Name
+                    </label>
+                    <input
+                      type="text"
+                      name="name"
+                      className="form-control form-control-lg"
+                      id="name"
+                      placeholder="Full Name..."
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Email */}
+              <div className="form-group">
+                <div className="row">
+                  <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                    <label htmlFor="email" style={{ fontSize: "1.5em" }}>
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      name="_replyto"
+                      className="form-control form-control-lg"
+                      id="exampleFormControlInput1"
+                      placeholder="Email..."
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Message */}
+              <div className="form-group hiddenRight">
+                <div className="row">
+                  <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                    <label htmlFor="email" style={{ fontSize: "1.5em" }}>
+                      Message
+                    </label>
+                    <textarea
+                      name="message"
+                      className="form-control form-control-lg"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                      placeholder="Write your message..."
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="row text-md-left text-sm-center">
+                <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                  {status === "SUCCESS" ? (
+                    <p className="d-inline success-msg">Email sent</p>
+                  ) : (
+                    <button
+                      type="submit"
+                      className="send-button btn btn-primary mb-6 "
+                    >
+                      Send
+                    </button>
+                  )}
+                  {status === "ERROR" && (
+                    <p className="err-msg">Ooops! There was an error.</p>
+                  )}
+                </div>
+              </div>
+            </form>
+          </Cell>
+        </Grid>
+      </div>
+    );
+  }
+}
+
+export default Contact;
